@@ -14,19 +14,6 @@ Set up environment variables:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-## Quick Start
-
-```python
-from marker.converters.pdf import PdfConverter
-from marker.models import create_model_dict
-
-converter = PdfConverter(
-    artifact_dict=create_model_dict(),
-    config={"page_range": [0, 1, 2], "renderer": "chunks+pageMarkdown"}
-)
-result = converter.render_document(converter.build_document("file.pdf"))
-```
-
 ## RAG Chat Agent
 
 Interactive CLI for PDF Q&A with caching.
