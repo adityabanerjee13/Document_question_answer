@@ -1,4 +1,4 @@
-# Mobius-DocumentExtraction
+# Document Information Extraction
 
 Extract documents (.pdf, .docx, .epub, images, .ppt) to Markdown and chunks.
 
